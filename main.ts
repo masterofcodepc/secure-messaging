@@ -46,28 +46,28 @@ function ShowTheFace (num: number) {
             # . . . # . . # . .
             # . . . # . . # . .
             . # # . . # # . . .
-            `).scrollImage(1, 200)
+            `).scrollImage(1, 50)
         images.createBigImage(`
             # . . . # . # # # .
             # # . # # . # . . .
             # . # . # . # # . .
             # . . . # . # . . .
             # . . . # . # # # .
-            `).scrollImage(1, 200)
+            `).scrollImage(1, 50)
         images.createBigImage(`
             . # . . # . # # # .
             . # . . # . # . . .
             . # # # # . # # . .
             . # . . # . # . . .
             . # . . # . # # # .
-            `).scrollImage(1, 200)
+            `).scrollImage(1, 50)
         images.createBigImage(`
             . # # . . . # # # .
             . # . # . . # . . .
             . # # . . . # # . .
             . # . # . . # . . .
             . # . # . . # # # .
-            `).scrollImage(1, 200)
+            `).scrollImage(1, 50)
     }
     if (num == 5) {
         images.createBigImage(`
@@ -76,7 +76,7 @@ function ShowTheFace (num: number) {
             # # # # . . # . . .
             # . . # . . # . . .
             # . . # . # # # . .
-            `).scrollImage(1, 200)
+            `).scrollImage(1, 100)
     }
     if (num == 6) {
         images.createBigImage(`
@@ -85,7 +85,7 @@ function ShowTheFace (num: number) {
             . . # . . . # . . #
             . . # . . . # . . #
             . . # . . . . # # .
-            `).scrollImage(1, 200)
+            `).scrollImage(1, 100)
     }
     if (num == 7) {
         images.iconImage(IconNames.Heart).showImage(0)
@@ -181,7 +181,7 @@ function Send () {
         # . # . #
         . . . . .
         . . . . .
-        `).scrollImage(1, 200)
+        `).scrollImage(1, 50)
     basic.clearScreen()
 }
 input.onButtonPressed(Button.B, function () {
